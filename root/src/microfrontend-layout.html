@@ -18,14 +18,17 @@
   -->
 
   <main>
+    <nav>
+      <application name="@rembrandtech/navbar"></application>
+    </nav>
     <route default>
       <application name="@single-spa/welcome"></application>
-    </route>
-    <route path="/navbar">
-      <application name="@rembrandtech/navbar"></application>
     </route>
     <route path="/appl">
       <application name="@rembrandtech/appl"></application>
     </route>
+    <footer>
+      <application name="@rembrandtech/footer"></application>
+    </footer>
   </main>
 </single-spa-router>
